@@ -1,0 +1,56 @@
+#home {
+    min-height: 75vh;
+    background: url(https://petfood-9ss2.vercel.app/images/home-bg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-position: left;
+    
+}
+
+section {
+    padding: 1rem 3%;
+ } 
+
+span{
+    color: #333;
+    font-size: 1.7rem;
+   
+}
+
+.content h3{
+   color: #333;
+   font-size: 4rem;
+   
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    transition: .3s cubic-bezier(.38,1.15,.7,1.12);
+    text-transform: capitalize;
+}
+
+
+
+@media (max-width: 991px){
+.home .content h3{
+    font-size: 2.3rem;
+    
+    }
+}
+
+@media (max-width: 400px){
+.home .content {
+    text-align: center;
+   
+    }
+}
