@@ -17,7 +17,11 @@ public class TutorDAO {
 
     public void cadastrar(Tutor tutor) {
         PreparedStatement stmt = null;
+<<<<<<< HEAD
         String sql = "INSERT INTO client(nome, cpf, idade, email, telefone, endereco, cidade, cep, token, id_client) VALUES( ?,  ?,  ?,  ?, ?, ?, ?, ?, ?, 1)";
+=======
+        String sql = "INSERT INTO client(nome, cpf, idade, email, telefone, endereco, cidade, cep, token) VALUES( ?,  ?,  ?,  ?, ?, ?, ?, ?, ?)"; 
+>>>>>>> 507986f317336d2cd734aae3ffa16f5294445e20
         try {
             stmt = con.prepareStatement(sql);
             stmt.setString(1, tutor.getNome());
