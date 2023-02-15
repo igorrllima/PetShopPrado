@@ -17,7 +17,7 @@ public class TutorDAO {
 
     public void cadastrar(Tutor tutor) {
         PreparedStatement stmt = null;
-        String sql = "INSERT INTO client(nome, cpf, idade, email, telefone, endereco, cidade, cep, token, id_client) VALUES( ?,  ?,  ?,  ?, ?, ?, ?, ?, ?, 1)"; 
+        String sql = "INSERT INTO client(nome, cpf, idade, email, telefone, endereco, cidade, cep, token, id_client) VALUES( ?,  ?,  ?,  ?, ?, ?, ?, ?, ?, 1)";
         try {
             stmt = con.prepareStatement(sql);
             stmt.setString(1, tutor.getNome());
@@ -36,24 +36,24 @@ public class TutorDAO {
         }
     }
 
-    /*public Tutor geTutor(String email) {
+    public Tutor getTutor(String email) {
         Tutor tutor = new Tutor();
         PreparedStatement stmt = null;
         ResultSet rs = null;
         String sql = "select * from client where email = ?";
-
         try {
             stmt = con.prepareStatement(sql);
             stmt.setString(1, email);
             rs = stmt.executeQuery();
             if (rs.next()) {
-                
-            
+                tutor.setCpf(email);
+                tutor.setNome(rs.getString("nome"));
+                tutor.setCpf(rs.getString("cpf"));
             }
             stmt.close();
         } catch (SQLException u) {
             throw new RuntimeException(u);
         }
         return tutor;
-    }*/
+    }
 }

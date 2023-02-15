@@ -4,7 +4,6 @@
 <jsp:setProperty name="obj" property="*"/>
 
 <% 
- 
     TutorDAO dao = new TutorDAO();
     dao.cadastrar(obj);
     response.sendRedirect(".");
