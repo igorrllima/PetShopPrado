@@ -1,0 +1,83 @@
+.navbar-brand{
+    color: rgb(241, 215, 99);
+}
+
+section{
+    min-height: 85vh;
+    background: url(https://petfood-9ss2.vercel.app/images/contact-bg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    
+    
+}
+
+.divs {
+  text-align: center;
+  
+}
+
+span{
+  position: relative;
+  float: left;
+  display:block;
+
+}
+
+
+
+.lua{
+  padding-right: 82px;
+  padding-bottom: 10px;
+  display:block;
+  
+}
+
+.h1{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(56, 56, 56);
+}
+
+
+.form-login{
+ align-items: center;
+ 
+}
+
+.form-control {
+    font-weight: 400;
+    background-color: rgb(246, 255, 247);
+    border-radius: 10px;
+    border-style:outset;
+    
+  }
+
+.form-control {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  
+}
+
+.form-control .form-floating:focus-within {
+    z-index: 2;
+    
+    
+  }
+
+  .form-control input[type="especie"] {
+    margin-bottom:-1px;
+    border-bottom-right-radius: 3;
+    border-bottom-left-radius: 3;
+    
+  }
+  
+  .form-control input[type="nome"] {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-top-left-radius: 3;
+    border-top-right-radius: 3;
+  }
