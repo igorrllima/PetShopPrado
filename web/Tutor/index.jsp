@@ -18,7 +18,7 @@
                 integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
 
-        <title>Document</title>
+        <title>CadastrarTutor</title>
     </head>
 
     <body>

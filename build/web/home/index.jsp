@@ -16,32 +16,19 @@
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                         <svg class="bi me-2" width="40" height="60" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
                     </a>
-
-                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                           
-                        <a class="navbar-brand" href="">
-                            <img src="../web/home/img/icon-osso2.png" alt="" width="40" height="40" ">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">    
+                        <a class="navbar-brand" href="/petShopPrado/turor/index.jsp">
+                            <img src="/petShopPrado/assets/icon/icon-osso2.png" alt="" width="40" height="40" ">
                             PetShop Prado
                         </a>
-                        <li><a href="#" class="nav-link px-4 text-white">Home</a></li>
-                        <li><a href="#" class="nav-link px-4 text-white">Categoria</a></li>
-                        <li><a href="#" class="nav-link px-4 text-white">Produtos</a></li>
-                        <li><a href="#" class="nav-link px-4 text-white">Perguntas frequentes</a></li>
-                        <li><a href="#" class="nav-link px-4 text-white">Contatos</a></li>
                     </ul>
-
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                        <input type="search" class="form-control form-control-dark" placeholder="Pesquisar..." aria-label="Search">
-                    </form>
-
                     <div class="text-end">
-                        <button type="button" class="btn btn-outline-light me-2">Login</button>
-                        <button type="button" class="btn btn-warning" href="/web/Tutor/index.jsp" >Cadastre-se</button>
+                        <a class="btn btn-outline-light me-2" href="/petShopPrado/login/index.jsp">Login</a>
+                        <a class="btn btn-warning" href="/petShopPrado/turor/index.jsp">Cadastre-se</a>
                     </div>
                 </div>
             </div>
         </header>
-
         <section class="home" id="home" >
             <div class="content" >
                 <span>Até 50% de Desconto</span>
@@ -49,9 +36,7 @@
                     <br>
                     Do Seu Animal De Estimação
                 </h3>
-                <a>
-                    <button type="button" class="btn btn-outline-dark me-2">Cadastre-se</button>
-                </a>
+                    <a class="btn btn-outline-dark me-2" href="/petShopPrado/tutor/index.jsp">Cadastre-se</a>
             </div>
         </section>
     </body>
