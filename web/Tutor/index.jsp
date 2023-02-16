@@ -1,6 +1,6 @@
+<%= session.getAttribute("cpfvalido") != null ? session.getAttribute("cpfvalido") : ""%>
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,8 +17,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
                 integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+        <script src="/petShopPrado/tutor/funcoes.js"></script>
 
-        <title>Document</title>
+        <title>CadastrarTutor</title>
     </head>
 
     <body>
