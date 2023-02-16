@@ -12,7 +12,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <title>PetShop Prado</title>
+  <title>PetShopPrado</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
             PetShop Prado
           </a>
           <li><a href="#" class="nav-link px-4 text-white">Home</a></li>
-          <li><a href="#" class="nav-link px-4 text-white">Solicitar ServiÃ§o</a></li>
+          <li><a href="#" class="nav-link px-4 text-white">Solicitar Serviço</a></li>
           <li><a href="#" class="nav-link px-4 text-white">Cadastrar Pet</a></li>
         </ul>
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -51,15 +51,15 @@
       <div class="div-form">
         <form class="form-login mb-2 " method="POST" action="output.jsp">
           <div class="divs mt-3">
-            <h1 class="h4 mb-4 fw-normal">Solicitar ServiÃ§o Pet</h1>
+            <h1 class="h4 mb-4 fw-normal">Solicitar Serviço Pet</h1>
           </div>
           <div class="col-sm-18 mb-3">
             <select class="form-select mb-3" id="servico" onChange="update()">
               <option value="45.00">Banho</option>
-              <option value="60.00">Banho e Tosa HigiÃªnica</option>
-              <option value="25.00">HidrataÃ§Ã£o</option>
+              <option value="60.00">Banho e Tosa Higiênica</option>
+              <option value="25.00">Hidratação</option>
               <option value="90.00">Tosa na Tesoura</option>
-              <option value="10.00">Tosa HigiÃªnica</option>
+              <option value="10.00">Tosa Higiênica</option>
               <option value="15.00">Corte de Unha</option>
             </select>
             <div class='input-group mb-3'>
@@ -75,7 +75,7 @@
           </div>
 
           <div class="col-sm-18 mb-4 mt-2" id="">
-            <textarea class="form-control" placeholder="InformaÃ§Ãµes adicionais..." aria-label="With textarea"></textarea>
+            <textarea class="form-control" placeholder="Informações adicionais..." aria-label="With textarea"></textarea>
           </div>
 
           <button id="btn-Agendar" class="col-sm-18 w-100 btn btn btn-success" type="submit">Agendar</button>

@@ -1,0 +1,103 @@
+.navbar-brand{
+    color: rgb(241, 215, 99);
+}
+
+/*
+.section2{
+    min-height: 85vh;
+    background: url(https://petfood-9ss2.vercel.app/images/contact-bg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+*/
+/*---------------------------------------*/
+
+:root{
+    --yellow:#FCDD26;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s cubic-bezier(.38,1.15,.7,1.12);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.7rem 2.5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color:#333;
+    background:var(--yellow);
+    position: relative;
+    box-shadow: 0 .8rem 1rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.offer .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.offer .box-container .box{
+    flex:0 1 35rem;
+    margin: 1rem;
+    position: relative;
+}
+
+.offer .box-container .box img{
+    width:100%;
+}
+
+.offer .box-container .box .content{
+    position: absolute;
+    top:50%;
+    left:10%;
+    transform:translateY(-50%);
+    color:#333;
+}
+
+.offer .box-container .box .content span{
+    font-size: 2rem;
+}
+
+.offer .box-container .box .content h3{
+    font-size: 3.5rem;
+}
+
+.offer .box-container .box:first-child .content .btn{
+    background:#fff;
+}
+
+.offer .box-container .box:last-child .content{
+    color:#fff;
+}
+
+@media (max-width:991px){
+
+    .offer .box-container .box .content h3{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width:400px){
+    .offer .box-container .box .content span{
+        font-size: 1.2rem;
+    }
+
+
+}
