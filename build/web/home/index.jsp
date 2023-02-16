@@ -19,12 +19,12 @@
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">    
                         <a class="navbar-brand" href="/petShopPrado/turor/index.jsp">
                             <img src="/petShopPrado/assets/icon/icon-osso2.png" alt="" width="40" height="40" ">
-                            PetShop Prado
+                            PetShopPrado
                         </a>
                     </ul>
                     <div class="text-end">
                         <a class="btn btn-outline-light me-2" href="/petShopPrado/login/index.jsp">Login</a>
-                        <a class="btn btn-warning" href="/petShopPrado/turor/index.jsp">Cadastre-se</a>
+                        <a class="btn btn-warning" href="/petShopPrado/tutor/index.jsp">Cadastre-se</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     <br>
                     Do Seu Animal De Estimação
                 </h3>
-                    <a class="btn btn-outline-dark me-2" href="/petShopPrado/tutor/index.jsp">Cadastre-se</a>
+                <a class="btn btn-outline-dark me-2" href="/petShopPrado/tutor/index.jsp">Cadastre-se</a>
             </div>
         </section>
     </body>

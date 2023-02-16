@@ -25,15 +25,12 @@
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                         <a class="navbar-brand" href="/petShopPrado/home/index.jsp">
                             <img src="/petShopPrado/assets/icon/icon-osso2.png" alt="" width="40" height="40" class="d-inline-block me-2 ">
-                            PetShop Prado
+                            PetShopPrado
                         </a>
                         <li><a href="/petShopPrado/home/index.jsp" class="nav-link px-4 text-white">Home</a></li>
                     </ul>
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                        <input type="search" class="form-control form-control-dark" placeholder="Pesquisar..." aria-label="Search">
-                    </form>
                     <div class="text-end">
-                        <button type="button" class="btn btn-warning">Cadastre-se</button>
+                        <a class="btn btn-warning" href="/petShopPrado/home/index.jsp">Cadastre-se</a>
                     </div>
                 </div>
             </div>

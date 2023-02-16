@@ -10,6 +10,9 @@ import java.util.InputMismatchException;
 public class Cpf {
 
     public static boolean validarCpf(String cpf) {
+        // remove os caracteres não numericos do cpf, isso é coisa minha mesmo!!!
+         cpf = cpf.replaceAll("\\.", "");
+         cpf = cpf.replaceAll("-", "");
         // considera-se erro CPF's formados por uma sequencia de numeros iguais
         if (cpf.equals("00000000000")
                 || cpf.equals("11111111111")
@@ -70,10 +73,4 @@ public class Cpf {
             return (false);
         }
     }
-
-    public static String imprimeCPF(String cpf) {
-        return (cpf.substring(0, 3) + "." + cpf.substring(3, 6) + "."
-                + cpf.substring(6, 9) + "-" + cpf.substring(9, 11));
-    }
-
 }

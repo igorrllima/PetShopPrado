@@ -4,8 +4,13 @@
 <jsp:setProperty name="obj" property="*"/>
 
 <% 
-    TutorDAO dao = new TutorDAO();
-    dao.cadastrar(obj);
-    response.sendRedirect(".");
-    
+    if(!Cpf.validarCpf(obj.getCpf())){
+        session.setAttribute("cpfvalido", "<script>window.alert('CPF inválido, tente novamente.');</script>");
+        response.sendRedirect("/petShopPrado/tutor/index.jsp");
+    }else{
+        TutorDAO dao = new TutorDAO();
+        dao.cadastrar(obj);
+        session.setAttribute("cpfvalido", "<script>window.alert('Cadastro efetuado com sucesso.');</script>");
+        response.sendRedirect("/petShopPrado/tutor/index.jsp");
+    } 
 %>
