@@ -16,9 +16,10 @@
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                         <svg class="bi me-2" width="40" height="60" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
                     </a>
+
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">    
-                        <a class="navbar-brand" href="/petShopPrado/turor/index.jsp">
-                            <img src="/petShopPrado/assets/icon/icon-osso2.png" alt="" width="40" height="40" ">
+                        <a class="navbar-brand" href="/petShopPrado/home/index.jsp">
+                            <img src="/petShopPrado/assets/icon/icon-osso2.png" alt="" width="40" height="40" class="d-inline-block me-2 ">
                             PetShopPrado
                         </a>
                     </ul>

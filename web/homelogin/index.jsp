@@ -1,3 +1,6 @@
+<%@page import="br.com.petShopPrado.security.Login"%>
+<%@page import="br.com.petShopPrado.model.Tutor"%>
+<%@page import="br.com.petShopPrado.dao.TutorDAO"%>
 <!DOCTYPE html>
 <html>
 
@@ -16,6 +19,12 @@
     </head>
 
     <body>
+        <%
+            Tutor login = (Tutor) session.getAttribute("login");
+            if(login == null){
+                response.sendRedirect("/petShopPrado/login/index.jsp");
+            }     
+        %>
         <header class="p-3 bg-dark text-white">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -26,35 +35,29 @@
                     </a>
 
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <a class="navbar-brand" href="#">
-                            <img src="/web/assets/icon/icon-osso2.png" alt="" width="40" height="40" class="d-inline-block me-2">
-                            PetShop Prado
+                        <a class="navbar-brand" href="/petShopPrado/home/index.jsp">
+                            <img src="/petShopPrado/assets/icon/icon-osso2.png" alt="" width="40" height="40" class="d-inline-block me-2 ">
+                            PetShopPrado
                         </a>
-                        <li><a href="#" class="nav-link px-4 text-white">Home</a></li>
-                        <li><a href="#" class="nav-link px-4 text-white">Solicitar Serviço</a></li>
-                        <li><a href="#" class="nav-link px-4 text-white">Cadastrar Pet</a></li>
+                        <li><a href="/petShopPrado/homelogin/index.jsp" class="nav-link px-4 text-white">Home</a></li>
+                        <li><a href="/petShopPrado/servico/index.jsp" class="nav-link px-4 text-white">Solicitar Serviço</a></li>
+                        <li><a href="/petShopPrado/animal/index.jsp" class="nav-link px-4 text-white">Cadastrar Pet</a></li>
                     </ul>
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                        <input type="search" class="form-control form-control-dark" placeholder="Pesquisar..." aria-label="Search">
-                    </form>
                     <div class="text-end">
-                        <h5 class="list-inline-item px-2 ">Bem vindo !</h5>
-                        <button type="button" class="btn btn-warning px-3">Sair</button>
+                        <a href="output.jsp" class="btn btn-warning px-3">Sair</a>
                     </div>
                 </div>
             </div>
         </header>
 
         <section class="offer" id="offer">
-
             <div class="box-container">
-
                 <div class="box">
                     <img src="https://petfood-9ss2.vercel.app/images/offer-img1.webp" alt="">
                     <div class="content">
                         <span>Cadastre seu Pet</span>
                         <h5>Queremos conhece-lo !</h5>
-                        <a href="#" class="btn">Cadastrar</a>
+                        <a href="/petShopPrado/animal/index.jsp" class="btn">Cadastrar</a>
                     </div>
                 </div>
                 <div class="box">
@@ -62,15 +65,12 @@
                     <div class="content">
                         <span>Agende um Serviço</span>
                         <h5>Seu Pet merece !</h5>
-                        <a href="#" class="btn">Agendar</a>
+                        <a href="/petShopPrado/servico/index.jsp" class="btn">Agendar</a>
                         <br>
-                        <a href="#" class="btn">Consultar Agenda</a>
+                        <a href="/petShopPrado/consulta/index.jsp" class="btn">Consultar Agenda</a>
                     </div>
                 </div>
             </div>
-
         </section>
-
     </body>
-
 </html>

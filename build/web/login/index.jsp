@@ -1,3 +1,4 @@
+<%= session.getAttribute("loginbemsucedido") != null ? session.getAttribute("loginbemsucedido") : ""%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -30,7 +31,7 @@
                         <li><a href="/petShopPrado/home/index.jsp" class="nav-link px-4 text-white">Home</a></li>
                     </ul>
                     <div class="text-end">
-                        <a class="btn btn-warning" href="/petShopPrado/home/index.jsp">Cadastre-se</a>
+                        <a class="btn btn-warning" href="/petShopPrado/tutor/index.jsp">Cadastre-se</a>
                     </div>
                 </div>
             </div>
@@ -71,4 +72,3 @@
         </section>
     </body>
 </html>
-F

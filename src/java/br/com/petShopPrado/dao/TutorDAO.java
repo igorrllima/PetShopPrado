@@ -46,7 +46,8 @@ public class TutorDAO {
             stmt.setString(1, email);
             rs = stmt.executeQuery();
             if (rs.next()) {
-                tutor.setCpf(email);
+                tutor.setEmail(email);
+                tutor.setIdClient(rs.getInt("id_client"));
                 tutor.setNome(rs.getString("nome"));
                 tutor.setCpf(rs.getString("cpf"));
             }

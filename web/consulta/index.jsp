@@ -39,7 +39,7 @@
                     </form>
                     <div class="text-end">
                         <h5 class="list-inline-item px-2 ">Bem vindo !</h5>
-                        <button type="button" class="btn btn-warning px-3">Sair</button>
+                         <a href="sair.jsp" class="btn btn-warning px-3">Sair</a>
                     </div>
                 </div>
             </div>

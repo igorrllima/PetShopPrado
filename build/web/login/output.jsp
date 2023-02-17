@@ -11,11 +11,10 @@
         session.setAttribute("loginbemsucedido", "");
         session.setAttribute("login", obj);
         session.setAttribute("login", new TutorDAO().getTutor(obj.getLogin()));
-        //out.print("bem vindo "+login+" deu certo");
-        url = "/petShopPrado/cadastrado/loginDeuCerto.jsp";
+        url = "/petShopPrado/homelogin/index.jsp";
     }else {
-        url = "/petShopPrado/home/index.jsp";
-        session.setAttribute("loginbemsucedido", "Credenciais incorretas.");
+        url = "/petShopPrado/login/index.jsp";
+        session.setAttribute("loginbemsucedido", "<script>window.alert('Email ou Senha Incorretos.');</script>");
     }
     response.sendRedirect(url);
 %>

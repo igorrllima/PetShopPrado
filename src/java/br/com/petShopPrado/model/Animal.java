@@ -9,9 +9,29 @@ package br.com.petShopPrado.model;
  * @author 55439
  */
 public class Animal {
+    private int idAnimal;
     private String nome;
     private String especie;
+    private int dono;
+    private Tutor tutor;
 
+    public int getIdAnimal() {
+        return idAnimal;
+    }
+
+    public void setIdAnimal(int idAnimal) {
+        this.idAnimal = idAnimal;
+    }
+    
+    public Tutor getTutor() {
+        return tutor;
+    }
+
+    public void setTutor(Tutor tutor) {
+        this.tutor = tutor;
+    }
+
+    
     public String getNome() {
         return nome;
     }
@@ -27,6 +47,15 @@ public class Animal {
     public void setEspecie(String especie) {
         this.especie = especie;
     }
+
+    public int getDono() {
+        return dono;
+    }
+
+    public void setDono(int dono) {
+        this.dono = dono;
+    }
+    
     
     
 }
