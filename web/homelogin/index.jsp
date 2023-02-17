@@ -63,6 +63,8 @@
                         <span>Agende um Serviço</span>
                         <h5>Seu Pet merece !</h5>
                         <a href="#" class="btn">Agendar</a>
+                        <br>
+                        <a href="#" class="btn">Consultar Agenda</a>
                     </div>
                 </div>
             </div>
