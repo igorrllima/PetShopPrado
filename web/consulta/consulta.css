@@ -1,0 +1,40 @@
+section{
+    background-color: rgb(255, 254, 250);
+    
+}
+
+.section2{
+    border-style: outset;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    background-color: rgb(221, 221, 221);
+}
+
+.navbar-brand{
+   color: rgb(241, 215, 99);
+    
+}
+
+.table-responsive{
+    border-style:outset;
+    border-radius: 3px;
+    border-color:rgb(156, 151, 151);
+    border-width:1px;
+    margin: 50px;
+    margin-top: 5px;
+    padding-top: 15px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(241, 241, 241);
+    
+}
+
+.titulo{
+    margin-top: 30px;
+    margin-left: 65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   
+}

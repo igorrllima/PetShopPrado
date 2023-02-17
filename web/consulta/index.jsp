@@ -45,9 +45,11 @@
             </div>
         </header>
 
-        <section class="section2">
-
-            <h2>Section title</h2>
+        <section>
+            <div class="section2">
+            <div class="titulo">
+                <h3>Agenda de Serviços</h3>
+                </div>
             <div class="table-responsive">
                 <table class="table table-striped table-sm">
                     <thead>
@@ -55,24 +57,24 @@
                             <th scope="col">#</th>
                             <th scope="col">Nome Tutor</th>
                             <th scope="col">Nome Animal</th>
-                            <th scope="col">Header</th>
-                            <th scope="col">Header</th>
-                            <th scope="col">Header</th>
-                            <th scope="col">Header</th>
+                            <th scope="col">Serviço Descrição</th>
+                            <th scope="col">Preço Serviço</th>
+                            <th scope="col">Data Agendada</th>
+                            <th scope="col">Cidade</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1,001</td>
-                            <td>random</td>
-                            <td>data</td>
-                            <td>placeholder</td>
-                            <td>text</td>
-                            <td>text</td>
-                            <td>text</td>
+                            <td>1</td>
+                            <td type="text" id="name" name="name">Paloma</td>
+                            <td type="text" id="animal" name="animal">Nina</td>
+                            <td type="text" id="tipoServico" name="servico">Banho e Tosa</td>
+                            <td type="text" id="preco" name="preco">R$60.00</td>
+                            <td type="date" id="inputDate" name="data">20/02/2023</td>
+                            <td type="text" id="inputCity" name="cidade">Londrina</td>
                         </tr>
                         <tr>
-                            <td>1,001</td>
+                            <td>2</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -81,7 +83,7 @@
                             <td>text</td>
                         </tr>
                          <tr>
-                            <td>1,001</td>
+                            <td>3</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -90,7 +92,7 @@
                             <td>text</td>
                         </tr>
                         <tr>
-                            <td>1,001</td>
+                            <td>4</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -99,7 +101,7 @@
                             <td>text</td>
                         </tr>
                          <tr>
-                            <td>1,001</td>
+                            <td>5</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -108,7 +110,7 @@
                             <td>text</td>
                         </tr>
                         <tr>
-                            <td>1,001</td>
+                            <td>6</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -117,7 +119,7 @@
                             <td>text</td>
                         </tr>
                          <tr>
-                            <td>1,001</td>
+                            <td>7</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -126,7 +128,7 @@
                             <td>text</td>
                         </tr>
                         <tr>
-                            <td>1,001</td>
+                            <td>8</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -135,7 +137,7 @@
                             <td>text</td>
                         </tr>
                          <tr>
-                            <td>1,001</td>
+                            <td>9</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -144,7 +146,7 @@
                             <td>text</td>
                         </tr>
                         <tr>
-                            <td>1,001</td>
+                            <td>10</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -153,7 +155,7 @@
                             <td>text</td>
                         </tr>
                          <tr>
-                            <td>1,001</td>
+                            <td>11</td>
                             <td>random</td>
                             <td>data</td>
                             <td>placeholder</td>
@@ -161,51 +163,13 @@
                             <td>text</td>
                             <td>text</td>
                         </tr>
-                        <tr>
-                            <td>1,001</td>
-                            <td>random</td>
-                            <td>data</td>
-                            <td>placeholder</td>
-                            <td>text</td>
-                            <td>text</td>
-                            <td>text</td>
-                        </tr>
-                         <tr>
-                            <td>1,001</td>
-                            <td>random</td>
-                            <td>data</td>
-                            <td>placeholder</td>
-                            <td>text</td>
-                            <td>text</td>
-                            <td>text</td>
-                        </tr>
-                        <tr>
-                            <td>1,001</td>
-                            <td>random</td>
-                            <td>data</td>
-                            <td>placeholder</td>
-                            <td>text</td>
-                            <td>text</td>
-                            <td>text</td>
-                        </tr>
-                       <tr>
-                            <td>1,001</td>
-                            <td>random</td>
-                            <td>data</td>
-                            <td>placeholder</td>
-                            <td>text</td>
-                            <td>text</td>
-                            <td>text</td>
-                        </tr>
-
                     </tbody>
                 </table>
             </div>
-
+        </div>
         </section>
 
 
 
     </body>
-
 </html>
